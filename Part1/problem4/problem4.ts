@@ -13,7 +13,7 @@ function lottery(num: number) {
   return new Promise<promiseType>((resolve, reject) => {
     console.log("undian lotre dimulai");
     console.log("sedang mengundi nomor anda");
-    let nomorUndian = Math.floor(Math.random() * 1) + 1;
+    let nomorUndian = Math.floor(Math.random() * 1000) + 1;
     console.log("nomor undian : ", nomorUndian);
     console.log("nomor kamu : ", num);
     setTimeout(() => {
